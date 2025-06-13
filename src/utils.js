@@ -1,5 +1,5 @@
 // Constants
-export const API_BASE_URL = "https://api.zerobounce.net/v2";
+export const API_BASE_URL = "https://custom-api.zerobounce.net/v2";
 export const API_BULK_BASE_URL = "https://bulkapi.zerobounce.net/v2";
 export const HEADERS = {
   Accept: "*/*",

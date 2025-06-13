@@ -5,10 +5,32 @@
 This is a JavaScript wrapper class for the ZeroBounce API v2.
 
 ## INSTALLATION
-
+To add the library to global node modules:
 ```bash
-npm install @zerobounce/zero-bounce-sdk
+git clone
+cd zero-bounce-javascript-fifa
+npm run build 
+npm link 
+# create your new project
+npm install @zerobounce/zero-bounce-sdk # this should install your locally compiled version
 ```
+
+To only install it to your project node modules 
+```bash
+git clone
+cd zero-bounce-javascript-fifa
+npm run build 
+```
+Then add this dependency in your package.json:
+```json
+  "dependencies": {
+    "@zerobounce/zero-bounce-sdk": "file:<PATH_TO_ZEROBOUNCE_JAVASCRIPT_FIFA_SDK>",
+    ...
+  }
+```
+Running ```npm install``` will install the library locally.
+
+For a sample project see the sample subfolder on this repo.
 
 ## USAGE
 

@@ -1,4 +1,5 @@
 import { createRequest, notInitialized, parameterIsMissing } from "./utils.js";
+import { API_BASE_URL } from "./utils.js";
 
 export class ZeroBounceSDK {
   constructor() {
@@ -27,6 +28,10 @@ export class ZeroBounceSDK {
       api_key: this._api_key,
     };
     return createRequest({ requestType: "GET", params, path: "/getcredits" });
+  }
+
+  showBaseURL() {
+    return API_BASE_URL;
   }
 
   /**
