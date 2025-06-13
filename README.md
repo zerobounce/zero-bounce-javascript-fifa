@@ -64,21 +64,7 @@ zeroBounce.init("<YOUR_API_KEY>");
 
 NOTE: all the methods are asynchronous they have to be used with async / await or .then.catch
 
-## Examples
-
-Then you can use any of the SDK methods, for example:
-
-- ##### Check how many credits you have left on your account
-
-```javascript
-try {
-  const response = await zeroBounce.getCredits();
-} catch (error) {
-  console.error(error);
-}
-```
-
-- ##### Validate an email address
+## Validate an email address
 
 ```javascript
 const email = "<EMAIL_ADDRESS>"; // The email address you want to validate
