@@ -1,5 +1,5 @@
 
-const ZeroBounceSDK = require('@zerobounce/zero-bounce-sdk')
+const ZeroBounceSDK = require('@zerobounce/zero-bounce-sdk-fifa')
 const dotenv = require('dotenv');
 dotenv.config();
 

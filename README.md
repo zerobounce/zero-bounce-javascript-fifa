@@ -50,7 +50,7 @@ OR
 Add npm module
 
 ```javascript
-const ZeroBounceSDK = require('@zerobounce/zero-bounce-sdk')
+const ZeroBounceSDK = require('@zerobounce/zero-bounce-sdk-fifa')
 
 const zeroBounce = new ZeroBounceSDK();
 ```
